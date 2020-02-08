@@ -10,7 +10,10 @@
 * Update      : Dream    2016-09-19    New release
 **********************************************************************
 '''
-import smbus
+try:
+    import smbus
+except:
+    import smbus2 as smbus
 import time
 
 

@@ -11,7 +11,10 @@
 **********************************************************************
 '''
 
-import smbus
+try:
+    import smbus
+except:
+    import smbus2 as smbus
 import time
 import math
 

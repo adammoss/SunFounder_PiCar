@@ -1,3 +1,5 @@
+Updates to the main repo can be merged using `git pull upstream master` and updates can be pushed to this repo using `git push origin`.
+
 ## SunFounder PiCar
 SunFounder PiCar
 

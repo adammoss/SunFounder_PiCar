@@ -10,7 +10,10 @@
 * Update      : Cavon    2016-09-23    New release
 **********************************************************************
 '''
-import RPi.GPIO as GPIO
+try:
+	import RPi.GPIO as GPIO
+except:
+	print('Cannot import RPI, are you running on a Raspberry Pi?')
 
 class Motor(object):
 	''' Motor driver class
