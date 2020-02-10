@@ -125,7 +125,7 @@ class Back_Wheels(object):
 	def calibration(self):
 		''' Get the front wheels to the calibration position. '''
 		self._debug_('Turn to "Calibration" position')
-		self.speed = 50
+		self.speed = 0
 		self.forward()
 		self.cali_forward_A = self.forward_A
 		self.cali_forward_B = self.forward_B
