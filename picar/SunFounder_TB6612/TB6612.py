@@ -13,7 +13,7 @@
 try:
 	import RPi.GPIO as GPIO
 except:
-	print('Cannot import RPI, are you running on a Raspberry Pi?')
+	print('[!] Cannot import RPI, are you running on a Raspberry Pi?')
 
 class Motor(object):
 	''' Motor driver class
